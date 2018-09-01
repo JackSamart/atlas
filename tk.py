@@ -11,7 +11,7 @@ tab2 = ttk.Frame(note)
 tab3 = ttk.Frame(note)
 
 Button(tab1, text='Exit', command=root.destroy).pack(padx=200, pady=200)
-#Button(tab2, text='help', command=root.destroy).pack(padx=100, pady=100)
+Button(tab2, text='help', command=root.destroy).pack(padx=100, pady=100)
 
 note.add(tab1, text = "Tab One",image=scheduledimage, compound=TOP)
 #note.add(tab1, text = "Tab One", compound=TOP)
